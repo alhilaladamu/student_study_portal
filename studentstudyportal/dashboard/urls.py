@@ -3,5 +3,5 @@ from .import views
 
 
 urlpartterns = [
-    path()
+    path('', views.home)
 ]
